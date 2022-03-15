@@ -1,0 +1,14 @@
+h1{
+    color: yellow;
+}
+a:link, a:visited{
+    color: orange;
+    background-color: rgb(99, 66, 4);
+    padding:  20px 30px;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: violet;
+    background-color: bisque;
+}
