@@ -4,19 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/stylosformulario.css">
-    <title>Iniciar sesion</title>
+    <link rel="stylesheet" href="../css/Registrate.css">
+    <title>Registrate</title>
 </head>
 <body>
     <div class="contenedor">
-        <h2>Iniciar sesion</h2>
+        <h2>Registrate</h2>
         <form id="forma" name="forma" method="post">
             <div class="elemento">
-                <label for="usuario">Usuario</label>
+                <label for="usuario">Nombre</label><br>
                 <input type="text" id="usuario" name="usuarui" required="True">
-            </div>
+                </div>
             <div class="elemento">
-                <label for="contrasena">Contraseña</label>
+                 <label for="contrasena">Correo</label><br>
+                 <input type="email" id="contrasena" name="contrasena" required="True">
+                    
+             </div>
+
+            <div class="elemento">
+                <label for="contrasena">Contraseña</label><br>
                 <input type="password" id="contrasena" name="contrasena" required="True">
                 
             </div>
@@ -25,7 +31,7 @@
             </div>
         </form>
 
-        <p>No tienes cuenta? <a href="../FormularioHTMLProjecto/Registro.html" target="_blank">Registrate aqui</a></p>
+        <p>Ya tienes una cuenta? <a href="../FormularioHTMLProjecto/Registro.html" target="_blank">inicia sesion aqui</a></p>
 
     </div>
 </body>

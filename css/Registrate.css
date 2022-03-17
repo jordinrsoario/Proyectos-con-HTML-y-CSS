@@ -1,39 +1,35 @@
-
+html{
+    height: 100%;
+}
+body{
     padding: 0;
     margin: 0;
-    background: linear-gradient(#9200a5e8,#ff00dd5d );
-}
-.contenedor{
-    margin: 50px auto;
-    width: 500px;
-    padding: 30px;
-    background: rgba(0,0,0,.3);
-    border-radius: 10px;
+    background: linear-gradient(#9200a598,#ff00dd9c );
 
 }
+.contenedor {
+    margin:20px auto;
+    background-color: rgba(0, 0, 0, 0.349);
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+}
+
 .contenedor h2{
-    margin: 0px 0px 30px;
-    padding: 0;
-    font-size: 40px;
-    color: #ffffffbd;
     text-align: center;
+    color: #ffffffbd;
+    font-size: 40px;
+    margin: 0 0 30px;
     font-family: monospace;
 }
 .contenedor .elemento label{
-    color: white;
-    font-size: 19px;
     font-family: monospace;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 }
-.contenedor .elemento input{
-    width: 100%;
-    padding: 10px 0;
-    background: transparent;
-    color: white;
-    border: none;
-    border-bottom: 1px solid #ffffffbd;
-    margin-bottom: 30px;
-}
+
 .contenedor .elemento input[type='submit']{
+    text-align: center;
     background-color: rgba(112, 2, 139, 0.555);
     border: none;
     letter-spacing: 3px;
@@ -46,6 +42,15 @@
     color: #ffffffbd;
     font-weight: bold;
 
+}
+.contenedor .elemento input{
+    width: 100%;
+    padding: 10px 0;
+    background: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid #ffffff6e;
+    margin-bottom: 30px;
 }
 .contenedor p{
     text-align: center;
@@ -62,6 +67,6 @@
     text-decoration: none;
     font-family: monospace;
     font-size: 18px;
-    color: rgba(66, 29, 90, 0.61);
+    color: rgba(53, 15, 78, 0.692);
     font-weight: bold;
 }
